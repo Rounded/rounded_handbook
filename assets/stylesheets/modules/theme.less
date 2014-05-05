@@ -1,0 +1,251 @@
+//
+// Global
+// --------------------------------------------------
+//
+
+
+//
+// Type
+// --------------------------------------------------
+//
+h1, h2, h3, h4, h5, h6{
+  font-family: @font-family-sans-serif;
+  margin-top: 0;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+h1{
+  line-height: 50px;
+}
+
+@media(max-width: @screen-xs-max){
+  h1{
+    // line-height: 50px;
+    font-size: 28px;
+  }
+}
+
+.header-bordered {
+  border-top: 1px solid @gray-light;
+  border-bottom: 1px solid @gray-light;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 34px 0;
+}
+
+//
+// Buttons
+// --------------------------------------------------
+//
+.btn{
+  font-family: @font-family-sans-serif;
+}
+.btn-secondary{
+  .bg-secondary;
+}
+
+// Navbar
+// --------------------------------------------------
+.navbar-default{
+  margin: 10px 0;
+}
+// Default navbar
+.navbar-default .navbar-brand{
+  // padding: 27px 15px;
+  color: #000;
+  
+  &:hover{
+    color: #000;
+  }
+}
+
+.navbar-default .navbar-nav > li > a{
+  text-transform: uppercase;
+  
+  @media(min-width: @screen-xs-max) and (max-width: @screen-sm-max){
+    font-size: 13px;
+  }
+
+}
+
+
+//
+// Carousel
+// -------------------------------------------------
+
+.carousel-control{
+  background-image: none;
+  opacity: .7;
+  
+  &.left{
+    left: 0;
+    width: auto;
+    height: 10%;
+    top: 40%
+  }
+
+  &.right{
+    right: 0;
+    width: auto;
+    height: 10%;
+    top: 40%
+  }
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-caption{
+  background: #000;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  
+  @media(max-width: @screen-xs-max){
+    display: none;  
+  }
+}
+
+.carousel-caption-text{
+  .text-thin;
+  margin-bottom: 0;
+}
+
+.item img{
+  width: 100%;
+}
+
+//
+// Panel
+// -------------------------------------------------
+.panel{
+  border: none;
+  .box-shadow(none);
+}
+
+.panel-group .panel + .panel{
+  margin-top: 0;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body{
+  border-top: none;
+}
+
+.panel-heading{
+  padding: 0;
+}
+.panel-title a{
+  padding: 10px 15px;
+  width: 100%;
+  display: inline-block;
+  .text-thin;
+  color: @gray;
+  
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.panel-body{
+  border: none;
+  padding: 30px;
+}
+
+.panel-collapse{
+  background: @brand-info;
+}
+
+.panel-primary{
+  .panel-heading{
+    .bg-primary;
+  }
+  .panel-heading.even{
+    background: #c9e372;
+  }
+}
+
+.panel-secondary{
+  .panel-heading{
+    .bg-secondary;
+  }
+  .panel-heading.even{
+    background: #ffd282;
+  }
+}
+//
+// Modal
+// -------------------------------------------------
+.modal{
+  -webkit-overflow-scrolling: touch
+}
+.modal-dialog{
+  width:880px;
+  max-width: 100%;
+  margin:100px auto 0;
+  @media(max-width:@screen-xs-max){
+    margin: 0 auto;
+  }
+}
+.modal-content {
+  background: #000;
+  box-shadow:none;
+  padding:30px;
+}
+.modal-backdrop{
+  &.in { .opacity(.9); }
+}
+.modal-header{
+  padding: 47px 0 0 0;
+  border:none;
+}
+.modal-title{
+  padding-left: 0;
+  color:#fff;
+  font-size:36px;
+}
+.modal-body{
+  padding:36px 0 0 0;
+  color:#fff;
+  font-size:16px;
+}
+.modal-subtitle{
+  font-family: @font-family-base;
+  padding:0;
+  font-size:24px;
+  text-transform: none;
+  color:#fff;
+  font-weight: normal;
+  margin-bottom: 22px;
+}
+.modal-footer{
+  margin-top:32px;
+  text-align: left;
+  padding:0;
+  border:none;
+}
+.btn-modal-share{
+  border-radius: 0;
+  border:0;
+  font-size: 24px;
+  text-transform: uppercase;
+
+  &:hover{
+    background-color:  lighten(@btn-default-bg, 10%)
+  }
+}
+.modal-close-link{
+  display: none;
+  padding-top: 10px;
+
+  @media(max-width:768px){
+    display: inline-block;
+  }  
+}
+
+.addthis{
+  padding: 7px 0;
+}

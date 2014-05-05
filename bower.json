@@ -5,7 +5,5 @@
     "bootstrap": "~3.0.0",
     "swfobject": "*",
     "afterResize.js": "https://github.com/mcshaman/afterResize.js.git"
-  },
-  "resolutions": {
   }
 }

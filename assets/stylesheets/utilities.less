@@ -1,0 +1,82 @@
+.grid-focus{
+  .make-sm-column(16);
+  .make-sm-column-offset(4);
+  
+  .make-lg-column(14);
+  .make-lg-column-offset(5);
+}
+
+.text-large-overlay{
+  font-size: 46px;
+  font-weight: 400;
+  color: @white;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, .6);
+  
+  @media(max-width: @screen-xs-max){
+    font-size:36px;
+  }
+}
+
+.text-thin{
+  font-weight: 400;
+}
+
+.text-thick{
+  font-weight: 700;
+}
+
+.font-size-large{
+  font-size: @font-size-large;
+}
+
+.bg-black{
+  background: @black;
+  color: @white;
+}
+
+.bg-primary{
+  background: @brand-primary;
+  color: @white;
+}
+
+.bg-secondary{
+  background: @brand-secondary;
+  color: @white;
+}
+
+.color-primary{
+  color: @brand-primary;
+}
+
+.color-secondary{
+  color: @brand-secondary;
+}
+
+.transform(@trans){
+  -webkit-transform: @trans;
+     -moz-transform: @trans;
+      -ms-transform: @trans;
+       -o-transform: @trans;
+          transform: @trans;
+}
+
+//Call: .background-cover(~'../image/path.jpg')
+.background-cover(@img){
+  background-image: url(@img);
+  background-repeat:no-repeat;
+  background-position:center center; 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@img', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@img', sizingMethod='scale')";
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.calc(@prop, @calc, @default){
+  whoa: 1~";@{prop}:" @default;
+  whoa: 1~";@{prop}:" -moz-calc(@calc);
+  whoa: 1~";@{prop}:" -o-calc(@calc);
+  whoa: 1~";@{prop}:" -webkit-calc(@calc);
+  whoa: 1~";@{prop}:" calc(@calc);
+}
