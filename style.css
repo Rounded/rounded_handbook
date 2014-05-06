@@ -6079,6 +6079,27 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0 0 16px 0;
+  font-family: "Asap", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 32px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h3 {
+  margin: 0 0 16px 0;
+  font-family: "Asap", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 32px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
   letter-spacing: .5px;
@@ -6320,4 +6341,7 @@ div.transparent {
   margin-top: 12px;
   display: block;
   line-height: 24px;
+}
+h3.toggle-transparent.navbar-text.pull-right {
+  color: #777777;
 }
