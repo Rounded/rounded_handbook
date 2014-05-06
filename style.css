@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic|Raleway:700|Asap:400,700,400italic,700italic);
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic|Raleway:700|Asap:400,700,400italic,700italic);
 /*
 Theme Name: Rounded Handbook
 Theme URI: 
@@ -6060,6 +6063,15 @@ td.visible-print {
 }
 body {
   padding-top: 90px;
+}
+body {
+  margin: 0;
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #333333;
+  background-color: #ffffff;
 }
 h1,
 h2,
