@@ -6094,16 +6094,8 @@ h3 {
   color: inherit;
   text-rendering: optimizelegibility;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 0;
-  letter-spacing: .5px;
-  text-transform: uppercase;
+section {
+  padding: 120px 0;
 }
 h1 {
   line-height: 50px;
