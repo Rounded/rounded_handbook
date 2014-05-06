@@ -1,11 +1,14 @@
-app = angular.module('SQS',["ngResource", "ngAnimate"])
+$(document).ready ->
 
-app.run(['$rootScope',($rootScope)->
-  ##Broadcast to video directives 
-  window.onYouTubeIframeAPIReady = (id)->
-    console.log "[YT Progress] YT Ready"
-    $rootScope.$broadcast("youtubeReady",true)
-    $rootScope.youtubeReady = true
-])
+  window.transparentShown = false
 
-app.constant('RootURL','/')
+  $(".toggle-transparent").click ->
+    if window.transparentShown is false
+      $(".transparent").fadeIn 400
+      window.transparentShown = true
+    else
+      $(".transparent").fadeOut 400
+      window.transparentShown = false
+    return
+
+  return

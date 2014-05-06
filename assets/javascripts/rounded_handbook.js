@@ -1,18 +1,15 @@
 (function() {
-  var app;
-
-  app = angular.module('SQS', ["ngResource", "ngAnimate"]);
-
-  app.run([
-    '$rootScope', function($rootScope) {
-      return window.onYouTubeIframeAPIReady = function(id) {
-        console.log("[YT Progress] YT Ready");
-        $rootScope.$broadcast("youtubeReady", true);
-        return $rootScope.youtubeReady = true;
-      };
-    }
-  ]);
-
-  app.constant('RootURL', '/');
+  $(document).ready(function() {
+    window.transparentShown = false;
+    $(".toggle-transparent").click(function() {
+      if (window.transparentShown === false) {
+        $(".transparent").fadeIn(400);
+        window.transparentShown = true;
+      } else {
+        $(".transparent").fadeOut(400);
+        window.transparentShown = false;
+      }
+    });
+  });
 
 }).call(this);
