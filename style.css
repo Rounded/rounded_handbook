@@ -428,7 +428,7 @@ h6 .small {
 }
 h1,
 .h1 {
-  font-size: 64px;
+  font-size: 40px;
 }
 h2,
 .h2 {
@@ -6334,6 +6334,9 @@ div.transparent {
   display: block;
   line-height: 24px;
 }
-h3.toggle-transparent.navbar-text.pull-right {
+h3.navbar-text.pull-right {
+  color: #777777;
+}
+h3.toggle-transparent.tof.pull-right {
   color: #777777;
 }
