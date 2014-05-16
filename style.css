@@ -6340,3 +6340,6 @@ h3.navbar-text.pull-right {
 h3.toggle-transparent.tof.pull-right {
   color: #777777;
 }
+hr.nav-line {
+  margin-top: -90px;
+}
