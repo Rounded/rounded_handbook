@@ -3828,8 +3828,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    position: relative;
-    left: -400px;
   }
 }
 .navbar-form {
@@ -6061,6 +6059,9 @@ td.visible-print {
   src: url('assets/fonts/missiongothic-regular.eot');
   src: url('assets/fonts/missiongothic-regular.eot') format('embedded-opentype'), url('assets/fonts/missiongothic-regular.woff') format('woff'), url('assets/fonts/missiongothic-regular.ttf') format('truetype'), url('assets/fonts/missiongothic-regular.svg#missionggothic-regular') format('svg');
 }
+.element.style {
+  text-transform: uppercase;
+}
 body {
   padding-top: 90px;
 }
@@ -6095,7 +6096,7 @@ h3 {
   text-rendering: optimizelegibility;
 }
 section {
-  padding: 156px 0;
+  padding: 70px 0;
 }
 .offset-anchor {
   display: block;
@@ -6145,10 +6146,6 @@ ul {
   .navbar-default .navbar-nav > li > a {
     font-size: 13px;
   }
-}
-.pull-right {
-  position: relative;
-  left: -400px;
 }
 .carousel-control {
   background-image: none;
