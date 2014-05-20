@@ -6062,11 +6062,16 @@ td.visible-print {
 a.toggle-transparent.tof {
   font-family: "ASAP";
   font-size: 20px;
+  text-transform: uppercase;
 }
 p.navbar-text {
   font-family: "ASAP";
   margin-left: 220px;
   font-size: 20px;
+  text-transform: uppercase;
+}
+.section {
+  padding: 30px 0px 30px 0px;
 }
 body {
   padding-top: 90px;
