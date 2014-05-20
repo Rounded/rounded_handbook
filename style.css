@@ -6059,8 +6059,14 @@ td.visible-print {
   src: url('assets/fonts/missiongothic-regular.eot');
   src: url('assets/fonts/missiongothic-regular.eot') format('embedded-opentype'), url('assets/fonts/missiongothic-regular.woff') format('woff'), url('assets/fonts/missiongothic-regular.ttf') format('truetype'), url('assets/fonts/missiongothic-regular.svg#missionggothic-regular') format('svg');
 }
-.element.style {
-  text-transform: uppercase;
+a.toggle-transparent.tof {
+  font-family: "ASAP";
+  font-size: 20px;
+}
+p.navbar-text {
+  font-family: "ASAP";
+  margin-left: 220px;
+  font-size: 20px;
 }
 body {
   padding-top: 90px;
