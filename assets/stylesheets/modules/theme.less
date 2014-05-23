@@ -71,6 +71,7 @@ text-rendering: optimizelegibility;
 }
 
 
+
 //
 // Type
 // --------------------------------------------------
@@ -132,6 +133,52 @@ ul {
     color: #000;
   }
 }
+.navbar-title {
+  @media(max-width: @screen-sm-max){
+
+    display: none;
+  }
+}
+
+p.navbar-text {
+  @media(max-width: @screen-sm-max){
+  font-family: "ASAP";
+  margin-left: 18%;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  }
+}
+
+.navbar-header-sm {
+  @media(min-width: @screen-sm-max){
+
+    display: none;
+  }
+}
+
+.navbar-header-sm {
+  @media(max-width: @screen-sm-max){
+
+    float: left;
+  }
+}
+
+.navbar-header {
+  @media(max-width: @screen-sm-max){
+
+    display: none;
+  }
+}
+
+.glyphicon.glyphicon-align-justify {
+  @media(max-width: @screen-sm-max){
+
+
+ 
+  }
+}
+
 
 .navbar-default .navbar-nav > li > a{
   text-transform: uppercase;
@@ -143,7 +190,15 @@ ul {
 }
 
 
+.navbar-brand {
+padding: 30px 15px;
+font-size: 19px;
+line-height: 30px;
+}
 
+.clearfix {
+  overflow: auto;
+}
 
 
 //
