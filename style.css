@@ -6178,9 +6178,6 @@ ul {
     display: none;
   }
 }
-@media (max-width: 991px) {
-  
-}
 .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
 }
@@ -6193,6 +6190,12 @@ ul {
   padding: 30px 15px;
   font-size: 19px;
   line-height: 30px;
+}
+@media (max-width: 991px) {
+  img {
+    height: auto;
+    width: 100%;
+  }
 }
 .carousel-control {
   background-image: none;
