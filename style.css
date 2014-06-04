@@ -6113,6 +6113,10 @@ h3 {
   top: -120px;
   visibility: hidden;
 }
+.img-spacing {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 h1 {
   line-height: 50px;
 }
@@ -6174,12 +6178,6 @@ ul {
   }
   .navbar-right .navbar-title {
     display: none;
-  }
-}
-@media (max-width: 991px) {
-  img {
-    height: auto;
-    width: 100%;
   }
 }
 .carousel-control {
