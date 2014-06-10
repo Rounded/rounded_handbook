@@ -6111,7 +6111,10 @@ h3 {
   visibility: hidden;
 }
 .img-spacing {
-  padding: 70px 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
+}
+.img-rounded {
+  padding: 50px 0px 50px 0px;
 }
 h1 {
   line-height: 50px;
