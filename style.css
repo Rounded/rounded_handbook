@@ -6073,9 +6073,6 @@ p.navbar-text {
 .section {
   padding: 50px 0px 40px 0px;
 }
-.img-wrap.text-center {
-  padding: 70px 0px 50px 0px;
-}
 body {
   padding-top: 90px;
   margin: 0;
@@ -6114,8 +6111,7 @@ h3 {
   visibility: hidden;
 }
 .img-spacing {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 70px 0px 50px 0px;
 }
 h1 {
   line-height: 50px;
