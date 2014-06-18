@@ -6113,9 +6113,6 @@ h3 {
 .img-spacing {
   padding: 50px 0px 50px 0px;
 }
-.img-rounded {
-  padding: 50px 0px 50px 0px;
-}
 h1 {
   line-height: 50px;
 }
@@ -6178,6 +6175,15 @@ ul {
   .navbar-right .navbar-title {
     display: none;
   }
+}
+.section-illustrations .illustration-list .illustration {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.section-illustrations .illustration-list .illustration:first-child {
+  margin-top: 60px;
 }
 .carousel-control {
   background-image: none;
@@ -6374,4 +6380,13 @@ h3.toggle-transparent.tof.pull-right {
 }
 hr.nav-line {
   margin-top: -90px;
+}
+.section-illustrations .illustration-list .illustration {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.section-illustrations .illustration-list .illustration:first-child {
+  margin-top: 60px;
 }
