@@ -6110,6 +6110,11 @@ h3 {
   top: -120px;
   visibility: hidden;
 }
+@media (max-width: 991px) {
+  .glyphicon {
+    margin-top: 8px;
+  }
+}
 .img-spacing {
   padding: 50px 0px 50px 0px;
 }
