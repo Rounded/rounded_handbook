@@ -6133,6 +6133,12 @@ ul.bullets {
 p.name {
   padding-bottom: inherit;
 }
+p.text {
+  padding-bottom: inherit;
+}
+h3.logo-type {
+  padding-bottom: 85px;
+}
 h1 {
   line-height: 50px;
 }
