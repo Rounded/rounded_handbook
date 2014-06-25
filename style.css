@@ -6139,6 +6139,12 @@ p.text {
 h3.logo-type {
   padding-bottom: 85px;
 }
+p.muted {
+  margin-top: 60px;
+}
+p.type-example.lead {
+  margin-top: 60px;
+}
 h1 {
   line-height: 50px;
 }
