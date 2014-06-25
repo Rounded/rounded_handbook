@@ -73,35 +73,31 @@ text-rendering: optimizelegibility;
 }
 
 p.question {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 
 p.question {
-  padding-top: inherit;
+  margin-top: 30px;
 }
 
 p.answer {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 
 ul.bullets {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 
 p.name {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 
 p.text {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 
-// h3.logo-type {
-//   padding-bottom: 85px;
-// }
-
-p.muted {
-  margin-top: 60px;
+p.core-text {
+  margin-top: 50px;
 }
 
 p.type-example.lead
@@ -109,10 +105,14 @@ p.type-example.lead
   margin-top: 60px;
 }
 
+h3.subheader {
+  margin-bottom: 30px;
+}
+
 h3.logo-type {
  @media(max-width: @screen-sm-max)
  {
-  padding-bottom: 35px;
+  margin-bottom: 35px;
    }
  }
 
@@ -120,9 +120,38 @@ h3.logo-type {
 h3.logo-type {
   @media(min-width: @screen-sm-max)
   {
-    padding-bottom: 85px
+    margin-bottom: 85px;
    }
  }
+
+h3.muted {
+ @media(max-width: @screen-sm-max)
+ {
+  margin-top: 95px;
+   }
+ }
+
+ h3.type-example {
+ @media(max-width: @screen-sm-max)
+ {
+  margin-top: 35px;
+   }
+ }
+
+ p.muted {
+  @media(min-width: @screen-sm-max)
+  {
+    margin-top: 60px;
+   }
+ }
+
+ p.muted {
+ @media(max-width: @screen-sm-max)
+ {
+  margin-top: 95px;
+   }
+ }
+
 
 
 //

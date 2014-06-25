@@ -6119,37 +6119,60 @@ h3 {
   padding: 50px 0px 50px 0px;
 }
 p.question {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 p.question {
-  padding-top: inherit;
+  margin-top: 30px;
 }
 p.answer {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 ul.bullets {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 p.name {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
 p.text {
-  padding-bottom: inherit;
+  margin-bottom: 30px;
 }
-p.muted {
-  margin-top: 60px;
+p.core-text {
+  margin-top: 50px;
 }
 p.type-example.lead {
   margin-top: 60px;
 }
+h3.subheader {
+  margin-bottom: 30px;
+}
 @media (max-width: 991px) {
   h3.logo-type {
-    padding-bottom: 35px;
+    margin-bottom: 35px;
   }
 }
 @media (min-width: 991px) {
   h3.logo-type {
-    padding-bottom: 85px;
+    margin-bottom: 85px;
+  }
+}
+@media (max-width: 991px) {
+  h3.muted {
+    margin-top: 95px;
+  }
+}
+@media (max-width: 991px) {
+  h3.type-example {
+    margin-top: 35px;
+  }
+}
+@media (min-width: 991px) {
+  p.muted {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 991px) {
+  p.muted {
+    margin-top: 95px;
   }
 }
 h1 {
