@@ -96,9 +96,9 @@ p.text {
   padding-bottom: inherit;
 }
 
-h3.logo-type {
-  padding-bottom: 85px;
-}
+// h3.logo-type {
+//   padding-bottom: 85px;
+// }
 
 p.muted {
   margin-top: 60px;
@@ -108,6 +108,21 @@ p.type-example.lead
 {
   margin-top: 60px;
 }
+
+h3.logo-type {
+ @media(max-width: @screen-sm-max)
+ {
+  padding-bottom: 35px;
+   }
+ }
+
+
+h3.logo-type {
+  @media(min-width: @screen-sm-max)
+  {
+    padding-bottom: 85px
+   }
+ }
 
 
 //

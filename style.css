@@ -6136,14 +6136,21 @@ p.name {
 p.text {
   padding-bottom: inherit;
 }
-h3.logo-type {
-  padding-bottom: 85px;
-}
 p.muted {
   margin-top: 60px;
 }
 p.type-example.lead {
   margin-top: 60px;
+}
+@media (max-width: 991px) {
+  h3.logo-type {
+    padding-bottom: 35px;
+  }
+}
+@media (min-width: 991px) {
+  h3.logo-type {
+    padding-bottom: 85px;
+  }
 }
 h1 {
   line-height: 50px;
