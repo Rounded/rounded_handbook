@@ -6139,8 +6139,15 @@ p.text {
 p.core-text {
   margin-top: 50px;
 }
-p.type-example.lead {
-  margin-top: 60px;
+@media (min-width: 991px) {
+  p.type-example.lead {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 991px) {
+  p.type-example.lead {
+    margin-top: 35px;
+  }
 }
 h3.subheader {
   margin-bottom: 30px;

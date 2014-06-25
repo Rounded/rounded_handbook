@@ -100,10 +100,19 @@ p.core-text {
   margin-top: 50px;
 }
 
-p.type-example.lead
-{
-  margin-top: 60px;
-}
+p.type-example.lead {
+@media(min-width: @screen-sm-max)
+  {
+    margin-top: 60px;
+   }
+ }
+
+p.type-example.lead {
+ @media(max-width: @screen-sm-max)
+ {
+  margin-top: 35px;
+   }
+ }
 
 h3.subheader {
   margin-bottom: 30px;
