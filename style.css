@@ -6315,6 +6315,16 @@ span.icon-menu {
 span.navbar-title {
   color: #ffffff;
 }
+@media (min-width: 991px) {
+  .navbar-brand {
+    margin-top: -15px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-top: -22px;
+  }
+}
 .section-illustrations .illustration-list .illustration {
   display: block;
   max-width: 100%;
