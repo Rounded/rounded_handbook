@@ -18,3 +18,47 @@
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic|Raleway:700|Asap:400,700,400italic,700italic);
 
+@charset "UTF-8";
+
+@font-face {
+  font-family: "rounded-iconfont";
+  src:url("assets/fonts/rounded-iconfont.eot");
+  src:url("assets/fonts/rounded-iconfont.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/rounded-iconfont.woff") format("woff"),
+    url("assets/fonts/rounded-iconfont.ttf") format("truetype"),
+    url("assets/fonts/rounded-iconfont.svg#rounded-iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "rounded-iconfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "rounded-iconfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e000";
+}
+
