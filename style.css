@@ -6274,7 +6274,7 @@ ul {
 }
 .navbar {
   border-bottom: 1px solid #e0e8e5;
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: #25BA84;
 }
 .navbar-default .navbar-brand {
   color: #000;
@@ -6308,6 +6308,12 @@ ul {
   .navbar-right .navbar-title {
     display: none;
   }
+}
+span.icon-menu {
+  color: #ffffff;
+}
+span.navbar-title {
+  color: #ffffff;
 }
 .section-illustrations .illustration-list .illustration {
   display: block;
