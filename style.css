@@ -6192,9 +6192,11 @@ p.question {
 }
 hr.small {
   width: 80px;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 p.answer {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 ul.bullets {
   margin-bottom: 30px;
