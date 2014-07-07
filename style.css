@@ -16,16 +16,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 /* Regular */
-@font-face {
-  font-family: 'League Gothic';
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot');
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('assets/fonts/leaguegothic-regular-webfont.woff') format('woff'), url('assets/fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('assets/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-}
-@font-face {
-  font-family: 'Mission Gothic';
-  src: url('assets/fonts/missiongothic-regular.eot');
-  src: url('assets/fonts/missiongothic-regular.eot') format('embedded-opentype'), url('assets/fonts/missiongothic-regular.woff') format('woff'), url('assets/fonts/missiongothic-regular.ttf') format('truetype'), url('assets/fonts/missiongothic-regular.svg#missionggothic-regular') format('svg');
-}
 @charset "UTF-8";
 @font-face {
   font-family: "rounded-iconfont";
@@ -6085,16 +6075,6 @@ td.visible-print {
   color: #ffb83b;
 }
 @font-face {
-  font-family: 'League Gothic';
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot');
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('assets/fonts/leaguegothic-regular-webfont.woff') format('woff'), url('assets/fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('assets/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-}
-@font-face {
-  font-family: 'Mission Gothic';
-  src: url('assets/fonts/missiongothic-regular.eot');
-  src: url('assets/fonts/missiongothic-regular.eot') format('embedded-opentype'), url('assets/fonts/missiongothic-regular.woff') format('woff'), url('assets/fonts/missiongothic-regular.ttf') format('truetype'), url('assets/fonts/missiongothic-regular.svg#missionggothic-regular') format('svg');
-}
-@font-face {
   font-family: "rounded-iconfont";
   src: url("assets/fonts/rounded-iconfont.eot");
   src: url("assets/fonts/rounded-iconfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/rounded-iconfont.woff") format("woff"), url("assets/fonts/rounded-iconfont.ttf") format("truetype"), url("assets/fonts/rounded-iconfont.svg#rounded-iconfont") format("svg");
@@ -6201,6 +6181,22 @@ hr.core {
   margin-top: 70px;
   font-color: #25BA84;
 }
+h3.core {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.4em;
+  letter-spacing: -1.5px;
+}
+ul.core {
+  list-style-type: none;
+}
+p.core {
+  text-align: center;
+  font-style: italic;
+  font-color: #969696;
+  font-size: 20px;
+}
 p.answer {
   margin-bottom: 70px;
 }
@@ -6228,6 +6224,7 @@ p.core-text {
 }
 h3.subheader {
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 @media (max-width: 991px) {
   h3.logo-type {
