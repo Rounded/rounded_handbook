@@ -6190,6 +6190,9 @@ p.question {
 p.question {
   margin-top: 30px;
 }
+hr.small {
+  width: 80px;
+}
 p.answer {
   margin-bottom: 30px;
 }
