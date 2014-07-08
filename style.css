@@ -6119,8 +6119,11 @@ p.navbar-text {
   font-size: 20px;
   text-transform: uppercase;
 }
+div.row {
+  margin-bottom: 70px;
+}
 section.section-hello {
-  margin-top: -50px;
+  margin-top: 90px;
 }
 section.section-guide {
   background-color: #F7F7F7;
