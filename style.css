@@ -6119,6 +6119,39 @@ p.navbar-text {
   font-size: 20px;
   text-transform: uppercase;
 }
+section.section-hello {
+  margin-top: -50px;
+}
+section.section-guide {
+  background-color: #F7F7F7;
+}
+section.section-clearspace {
+  background-color: #F7F7F7;
+}
+section.section-colors {
+  background-color: #F7F7F7;
+}
+section.section-typography {
+  background-color: #F7F7F7;
+}
+section.section-core {
+  background-color: #F7F7F7;
+}
+section.section-goals {
+  background-color: #F7F7F7;
+}
+section.section-expectations {
+  background-color: #F7F7F7;
+}
+section.section-colors {
+  background-color: #F7F7F7;
+}
+section.section-colors {
+  background-color: #F7F7F7;
+}
+section.section-colors {
+  background-color: #F7F7F7;
+}
 .section {
   padding: 50px 0px 40px 0px;
 }
