@@ -6146,15 +6146,6 @@ section.section-goals {
 section.section-expectations {
   background-color: #F7F7F7;
 }
-section.section-colors {
-  background-color: #F7F7F7;
-}
-section.section-colors {
-  background-color: #F7F7F7;
-}
-section.section-colors {
-  background-color: #F7F7F7;
-}
 .section {
   padding: 50px 0px 40px 0px;
 }
@@ -6260,6 +6251,7 @@ p.core-text {
 }
 h3.subheader {
   margin-bottom: 30px;
+  margin-top: 30px;
   text-transform: uppercase;
 }
 @media (max-width: 991px) {
