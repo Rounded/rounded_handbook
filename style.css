@@ -6269,6 +6269,11 @@ h3.illustration {
   margin-bottom: 35px;
   text-transform: uppercase;
 }
+h3.benefits {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
 @media (max-width: 991px) {
   h3.logo-type {
     margin-bottom: 35px;
@@ -6298,6 +6303,9 @@ h3.illustration {
   p.muted {
     margin-top: 95px;
   }
+}
+img.time {
+  max-width: 100%;
 }
 h1 {
   line-height: 50px;
