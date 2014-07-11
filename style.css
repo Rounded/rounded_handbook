@@ -6234,7 +6234,7 @@ p.name {
   margin-bottom: 30px;
 }
 p.text {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 p.core-text {
   margin-top: 50px;
@@ -6253,6 +6253,10 @@ h3.subheader {
   margin-bottom: 30px;
   margin-top: 30px;
   text-transform: uppercase;
+}
+h3.nono {
+  margin-top: -25px;
+  margin-bottom: 35px;
 }
 @media (max-width: 991px) {
   h3.logo-type {
