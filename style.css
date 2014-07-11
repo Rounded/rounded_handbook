@@ -6257,6 +6257,17 @@ h3.subheader {
 h3.nono {
   margin-top: -25px;
   margin-bottom: 35px;
+  text-transform: uppercase;
+}
+h3.typography {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+h3.illustration {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
 }
 @media (max-width: 991px) {
   h3.logo-type {
