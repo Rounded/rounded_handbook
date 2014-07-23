@@ -134,6 +134,9 @@
 </div><!-- .container -->
 </section><!-- .hello -->
 
+<!-- Accordion
+   =====================-->
+
 <section class="section-time">
 <div class="container">
 
@@ -141,22 +144,44 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="offset-anchor" id="time"> 
       </div><!-- .offset-anchor -->
-      <h1>Timeline</h1> 
-      <div class="offset-anchor" id=""> 
-      </div><!-- .offset-anchor --> 
-      <div class="section section-timeline">
+      <h1>Timeline</h1>      
+      <div class="panel-group" id="accordion">
+      <div class="panel panel-primary">
+      <div class="panel-heading">
+      <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#section1">2014</a></h4>
       </div>
-      <div class="timeline-list">
+      <div class="panel-collapse collapse in" id="section1">
+      <div class="panel-body"><img class="time" src="assets/images/cat.png" alt="">
+
+      This will contain some text.....
       </div>
-      <div class="col-md-4">
-        <img class="time" src="assets/images/cat.png" alt="">
-      </div><!-- .col-md-4 -->
-      <div class="col-md-4">
-        <img class="time" src="assets/images/cat.png" alt="">
-      </div><!-- .col-md-4 -->
-      <div class="col-md-4">
-        <img class="time" src="assets/images/cat.png" alt="">
-      </div><!-- .col-md-4 -->
+      </div>
+      </div>
+      <div class="panel panel-success">
+      <div class="panel-heading">
+      <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#section2">2013</a>
+      </h4>
+      </div>
+      <div class="panel-collapse collapse" id="section2">
+      <div class="panel-body">
+      This will contain some text.....
+      </div>
+      </div>
+      </div>
+      <div class="panel panel-danger">
+      <div class="panel-heading">
+      <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#section3">2012
+      </a></h4>
+      </div>
+      <div class="panel-collapse collapse" id="section3">
+      <div class="panel-body">This will contain some text.....
+      </div>
+      </div>
+      </div>
+      </div>
     </div><!-- .col-md-8 col-md-offset-2 -->
   </div><!-- .row -->
 
