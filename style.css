@@ -16,15 +16,40 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 /* Regular */
+@charset "UTF-8";
 @font-face {
-  font-family: 'League Gothic';
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot');
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('assets/fonts/leaguegothic-regular-webfont.woff') format('woff'), url('assets/fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('assets/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-family: "rounded-iconfont";
+  src: url("assets/fonts/rounded-iconfont.eot");
+  src: url("assets/fonts/rounded-iconfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/rounded-iconfont.woff") format("woff"), url("assets/fonts/rounded-iconfont.ttf") format("truetype"), url("assets/fonts/rounded-iconfont.svg#rounded-iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'Mission Gothic';
-  src: url('assets/fonts/missiongothic-regular.eot');
-  src: url('assets/fonts/missiongothic-regular.eot') format('embedded-opentype'), url('assets/fonts/missiongothic-regular.woff') format('woff'), url('assets/fonts/missiongothic-regular.ttf') format('truetype'), url('assets/fonts/missiongothic-regular.svg#missionggothic-regular') format('svg');
+[data-icon]:before {
+  font-family: "rounded-iconfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "rounded-iconfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-menu:before {
+  content: "\e000";
 }
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
@@ -6050,14 +6075,38 @@ td.visible-print {
   color: #ffb83b;
 }
 @font-face {
-  font-family: 'League Gothic';
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot');
-  src: url('assets/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('assets/fonts/leaguegothic-regular-webfont.woff') format('woff'), url('assets/fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('assets/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+  font-family: "rounded-iconfont";
+  src: url("assets/fonts/rounded-iconfont.eot");
+  src: url("assets/fonts/rounded-iconfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/rounded-iconfont.woff") format("woff"), url("assets/fonts/rounded-iconfont.ttf") format("truetype"), url("assets/fonts/rounded-iconfont.svg#rounded-iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'Mission Gothic';
-  src: url('assets/fonts/missiongothic-regular.eot');
-  src: url('assets/fonts/missiongothic-regular.eot') format('embedded-opentype'), url('assets/fonts/missiongothic-regular.woff') format('woff'), url('assets/fonts/missiongothic-regular.ttf') format('truetype'), url('assets/fonts/missiongothic-regular.svg#missionggothic-regular') format('svg');
+[data-icon]:before {
+  font-family: "rounded-iconfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "rounded-iconfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-menu:before {
+  content: "\e000";
 }
 a.toggle-transparent.tof {
   font-family: "ASAP";
@@ -6069,6 +6118,33 @@ p.navbar-text {
   margin-left: 25%;
   font-size: 20px;
   text-transform: uppercase;
+}
+div.row {
+  margin-bottom: 70px;
+}
+section.section-hello {
+  margin-top: 90px;
+}
+section.section-guide {
+  background-color: #F7F7F7;
+}
+section.section-clearspace {
+  background-color: #F7F7F7;
+}
+section.section-colors {
+  background-color: #F7F7F7;
+}
+section.section-typography {
+  background-color: #F7F7F7;
+}
+section.section-core {
+  background-color: #F7F7F7;
+}
+section.section-goals {
+  background-color: #F7F7F7;
+}
+section.section-expectations {
+  background-color: #F7F7F7;
 }
 .section {
   padding: 50px 0px 40px 0px;
@@ -6110,22 +6186,46 @@ h3 {
   top: -120px;
   visibility: hidden;
 }
-@media (max-width: 991px) {
-  .glyphicon {
-    margin-top: 8px;
-  }
-}
 .img-spacing {
   padding: 50px 0px 50px 0px;
 }
 p.question {
   margin-bottom: 30px;
+  color: #25BA84;
+  font-size: 20px;
 }
 p.question {
   margin-top: 30px;
 }
+hr.small {
+  width: 80px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+hr.core {
+  width: 80px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  font-color: #25BA84;
+}
+h3.core {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.4em;
+  letter-spacing: -1.5px;
+}
+ul.core {
+  list-style-type: none;
+}
+p.core {
+  text-align: center;
+  font-style: italic;
+  color: #808080;
+  font-size: 20px;
+}
 p.answer {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 ul.bullets {
   margin-bottom: 30px;
@@ -6134,7 +6234,7 @@ p.name {
   margin-bottom: 30px;
 }
 p.text {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 p.core-text {
   margin-top: 50px;
@@ -6151,6 +6251,28 @@ p.core-text {
 }
 h3.subheader {
   margin-bottom: 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+h3.nono {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+h3.typography {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+h3.illustration {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+h3.benefits {
+  margin-top: -25px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
 }
 @media (max-width: 991px) {
   h3.logo-type {
@@ -6182,6 +6304,9 @@ h3.subheader {
     margin-top: 95px;
   }
 }
+img.time {
+  max-width: 100%;
+}
 h1 {
   line-height: 50px;
 }
@@ -6210,7 +6335,7 @@ ul {
 }
 .navbar {
   border-bottom: 1px solid #e0e8e5;
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: #25BA84;
 }
 .navbar-default .navbar-brand {
   color: #000;
@@ -6243,6 +6368,22 @@ ul {
   }
   .navbar-right .navbar-title {
     display: none;
+  }
+}
+span.icon-menu {
+  color: #ffffff;
+}
+span.navbar-title {
+  color: #ffffff;
+}
+@media (min-width: 991px) {
+  .navbar-brand {
+    margin-top: -15px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-top: -22px;
   }
 }
 .section-illustrations .illustration-list .illustration {
