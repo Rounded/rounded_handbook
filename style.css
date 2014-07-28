@@ -6354,7 +6354,7 @@ ul {
   padding-right: 20px;
 }
 .navbar-brand {
-  padding: 30px 20px;
+  padding: 17px 20px;
   font-size: 19px;
   line-height: 30px;
 }
@@ -6375,16 +6375,6 @@ span.icon-menu {
 }
 span.navbar-title {
   color: #ffffff;
-}
-@media (min-width: 991px) {
-  .navbar-brand {
-    margin-top: -15px;
-  }
-}
-@media (max-width: 991px) {
-  .navbar-brand {
-    margin-top: -22px;
-  }
 }
 .section-illustrations .illustration-list .illustration {
   display: block;
