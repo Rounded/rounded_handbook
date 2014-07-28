@@ -6125,22 +6125,19 @@ div.row {
 section.section-hello {
   margin-top: 90px;
 }
-section.section-guide {
-  background-color: #F7F7F7;
-}
-section.section-clearspace {
-  background-color: #F7F7F7;
-}
-section.section-colors {
-  background-color: #F7F7F7;
-}
-section.section-typography {
+section.section-time {
   background-color: #F7F7F7;
 }
 section.section-core {
   background-color: #F7F7F7;
 }
+section.section-path {
+  background-color: #F7F7F7;
+}
 section.section-goals {
+  background-color: #F7F7F7;
+}
+section.section-benefits {
   background-color: #F7F7F7;
 }
 section.section-expectations {
@@ -6306,6 +6303,7 @@ h3.benefits {
 }
 img.time {
   max-height: 60%;
+  padding-right: inherit;
   float: left;
 }
 h1 {
@@ -6373,6 +6371,7 @@ ul {
 }
 span.icon-menu {
   color: #ffffff;
+  font-size: 30px;
 }
 span.navbar-title {
   color: #ffffff;
