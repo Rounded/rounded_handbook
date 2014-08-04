@@ -6312,20 +6312,27 @@ img.time {
 p.timeline-text {
   margin: 0 0 10px;
 }
-h4.timeline-title {
+.timeline-title {
   font-size: 18px;
 }
 ul.timeline {
   list-style: none;
 }
-.timeline {
-  width: 46%;
-  float: left;
-  border: 1px solid #d4d4d4;
-  border-radius: 2px;
-  padding: 20px;
-  position: relative;
-  margin-top: 60px;
+.timeline:before,
+.timeline:after {
+  content: " ";
+  display: table;
+}
+.timeline:after {
+  clear: both;
+}
+.timeline:before,
+.timeline:after {
+  content: " ";
+  display: table;
+}
+.timeline:after {
+  clear: both;
 }
 .timeline:before {
   top: 0;
@@ -6337,16 +6344,36 @@ ul.timeline {
   left: 110%;
   margin-left: -1.5px;
 }
-.timeline-panel:before {
+.timeline-panel {
+  width: 42%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  margin-top: 60px;
+}
+.timeline-panel:nth-child(even) {
+  margin-left: 8%;
+}
+.timeline-pointer {
   position: absolute;
-  top: 26px;
-  right: -15px;
+  top: 50%;
+  margin-top: -15px;
   display: inline-block;
   border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
   border-bottom: 15px solid transparent;
   content: " ";
+}
+.timeline-panel:nth-child(odd) .timeline-pointer {
+  right: -15px;
+  border-right: 0 solid #ccc;
+  border-left: 15px solid #ccc;
+}
+.timeline-panel:nth-child(even) .timeline-pointer {
+  left: -15px;
+  border-left: 0 solid #ccc;
+  border-right: 15px solid #ccc;
 }
 h1 {
   line-height: 50px;
