@@ -6186,28 +6186,28 @@ h3 {
   color: #25BA84;
   font-size: 20px;
 }
-.divider-small {
+.small {
   width: 80px;
   margin-bottom: 70px;
   margin-top: 70px;
 }
-.line-section {
+hr.section {
   width: 80px;
 }
-.divider-core {
+hr.core {
   width: 80px;
   margin-bottom: 70px;
   margin-top: 70px;
   font-color: #25BA84;
 }
-.header-core {
+h3.core {
   font-size: 70px;
   font-weight: 400;
   text-align: center;
   line-height: 1.4em;
   letter-spacing: -1.5px;
 }
-.ul-core {
+ul.core {
   list-style-type: none;
 }
 p.core {
@@ -6216,13 +6216,13 @@ p.core {
   color: #808080;
   font-size: 20px;
 }
-.answer {
+p.answer {
   margin-bottom: 70px;
 }
-.bullets {
+ul.bullets {
   margin-bottom: 30px;
 }
-.name {
+p.name {
   margin-bottom: 30px;
 }
 p.text {
