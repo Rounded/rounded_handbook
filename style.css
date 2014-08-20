@@ -6296,6 +6296,22 @@ h3 {
     margin-top: 95px;
   }
 }
+.section.section-quick-tips {
+  padding-top: 0;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.home-for-box-title {
+  position: relative;
+  z-index: 3333;
+  padding-top: 104px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 .timeline-text {
   margin: 0 0 10px;
 }
