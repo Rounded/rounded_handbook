@@ -6319,6 +6319,7 @@ h3 {
 }
 .section-time {
   background: url("assets/images/timeline_divider.png") repeat-y center top;
+  background-color: #F7F7F7;
 }
 .timeline-text {
   margin: 0 0 10px;
@@ -6358,11 +6359,10 @@ h3 {
 .timeline-panel {
   width: 42%;
   float: left;
-  border: 1px solid #d4d4d4;
-  border-radius: 2px;
   padding: 20px;
   position: relative;
   margin-top: 60px;
+  background-color: #ffffff;
 }
 .timeline-panel:nth-child(even) {
   margin-left: 8%;
@@ -6378,13 +6378,13 @@ h3 {
 }
 .timeline-panel:nth-child(odd) .timeline-pointer {
   right: -15px;
-  border-right: 0 solid #ccc;
-  border-left: 15px solid #ccc;
+  border-right: 0 solid #fff;
+  border-left: 15px solid #fff;
 }
 .timeline-panel:nth-child(even) .timeline-pointer {
   left: -15px;
-  border-left: 0 solid #ccc;
-  border-right: 15px solid #ccc;
+  border-left: 0 solid #fff;
+  border-right: 15px solid #fff;
 }
 h1 {
   line-height: 50px;
