@@ -6321,6 +6321,9 @@ h3 {
   background: url("assets/images/timeline_divider.png") repeat-y center top;
   background-color: #F7F7F7;
 }
+.timeline-year {
+  text-align: center;
+}
 .timeline-text {
   margin: 0 0 10px;
 }
