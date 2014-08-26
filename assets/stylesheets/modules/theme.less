@@ -242,11 +242,36 @@ text-rendering: optimizelegibility;
    }
  }
 
-.section.section-quick-tips {
-  padding-top: 0;
-  padding-right: 2%;
-  padding-left: 2%;
+.tile {
+  overflow: hidden;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  .tile:first-child {  width: 38%;
+  height: 100%; }
 }
+
+   
+
+
+.tile-title {
+  position: relative;
+  z-index: 900;
+}
+
+.tile-subtitle {
+  position: relative;
+  z-index: 900;
+}
+
+.tile-img {
+  width: 100%;
+}
+
+.section-time {
+  background: url("assets/images/timeline_divider.png") repeat-y center top;
+}
+
 
  .timeline-text {
   margin: 0 0 10px;
