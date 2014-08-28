@@ -6323,6 +6323,7 @@ h3 {
 }
 .timeline-year {
   text-align: center;
+  background-color: #F7F7F7;
 }
 .timeline-text {
   margin: 0 0 10px;
@@ -6365,6 +6366,7 @@ h3 {
   padding: 20px;
   position: relative;
   margin-top: 60px;
+  margin-right: 30px;
   background-color: #ffffff;
 }
 .timeline-panel:nth-child(even) {
@@ -6388,6 +6390,11 @@ h3 {
   left: -15px;
   border-left: 0 solid #fff;
   border-right: 15px solid #fff;
+}
+.timeline-date {
+  color: grey;
+  text-transform: uppercase;
+  line-height: 0px;
 }
 h1 {
   line-height: 50px;
