@@ -6296,26 +6296,13 @@ h3 {
     margin-top: 95px;
   }
 }
-.tile {
-  overflow: hidden;
-  text-align: center;
-  width: 60%;
-  height: 100%;
+.tips-photo {
+  width: 90%;
 }
-.tile .tile:first-child {
-  width: 38%;
-  height: 100%;
-}
-.tile-title {
-  position: relative;
-  z-index: 900;
-}
-.tile-subtitle {
-  position: relative;
-  z-index: 900;
-}
-.tile-img {
-  width: 100%;
+.subtitle-tile {
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -15px;
 }
 .section-time {
   background: url("assets/images/timeline_divider.png") repeat-y center top;
