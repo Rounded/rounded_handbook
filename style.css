@@ -6443,6 +6443,7 @@ ul {
   padding: 17px 20px;
   font-size: 19px;
   line-height: 30px;
+  margin-top: -10px;
 }
 @media (max-width: 991px) {
   .navbar-header {
@@ -6461,6 +6462,10 @@ ul {
 }
 .navbar-title {
   color: #ffffff;
+}
+.navbar {
+  min-height: 70px;
+  height: 70px;
 }
 .section-illustrations .illustration-list .illustration {
   display: block;
