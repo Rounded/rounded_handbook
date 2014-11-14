@@ -6297,12 +6297,24 @@ h3 {
   }
 }
 .tips-photo {
+  width: 100%;
+}
+.photo-tips {
   width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  display: block;
+  line-height: 30px;
+  margin-top: 20px;
 }
 .subtitle-tile {
   font-size: 11px;
   font-style: italic;
+  padding: 0 0 0 10px;
   margin-top: -15px;
+}
+.tile-title {
+  padding: 0 0 0 10px;
 }
 .section-time {
   background: url("assets/images/timeline_divider.png") repeat-y center top;
@@ -6311,12 +6323,14 @@ h3 {
 .timeline-year {
   text-align: center;
   background-color: #F7F7F7;
+  padding-top: 20px;
 }
 .timeline-text {
-  margin: 0 0 10px;
+  padding: 25px;
 }
 .timeline-title {
   font-size: 18px;
+  margin-left: 10px;
 }
 .timeline {
   list-style: none;
@@ -6350,7 +6364,6 @@ h3 {
 .timeline-panel {
   width: 42%;
   float: left;
-  padding: 20px;
   position: relative;
   margin-top: 60px;
   margin-right: 30px;
@@ -6382,9 +6395,11 @@ h3 {
   color: grey;
   text-transform: uppercase;
   line-height: 0px;
+  margin-left: 10px;
 }
 .timeline-photo {
-  width: 100%;
+  width: 90%;
+  margin: 0px 0px 0px 21px;
 }
 .timeline-photo-wrapper {
   min-width: 100%;
