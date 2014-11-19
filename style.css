@@ -6314,7 +6314,7 @@ h3 {
   margin-top: -15px;
 }
 .tile-title {
-  padding: 0 0 0 10px;
+  padding: 10px 0 0 10px;
 }
 .section-time {
   background: url("assets/images/timeline_divider.png") repeat-y center top;
