@@ -6333,8 +6333,7 @@ h3 {
 }
 .timeline-title {
   font-size: 18px;
-  margin-left: 10px;
-  padding-top: 12px;
+  padding: 25px;
 }
 .timeline {
   list-style: none;
@@ -6370,7 +6369,7 @@ h3 {
   float: left;
   position: relative;
   border-radius: 15px;
-  box-shadow: 1px 1px 1px #888888;
+  box-shadow: 1px 1px 3px #CCC;
   margin-top: 60px;
   margin-right: 30px;
   background-color: #ffffff;
@@ -6401,7 +6400,8 @@ h3 {
   color: grey;
   text-transform: uppercase;
   line-height: 0px;
-  margin-left: 10px;
+  padding: 25px;
+  margin-top: -44px;
 }
 .timeline-photo {
   width: 90%;
