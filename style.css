@@ -6209,43 +6209,38 @@ ul {
   border-bottom: 1px solid #e0e8e5;
   background-color: #25BA84;
 }
-.navbar-default .navbar-brand {
-  color: #000;
+.navbar .container {
+  width: 100%;
+  padding: 0 30px;
 }
-.navbar-default .navbar-brand:hover {
-  color: #000;
-}
-.navbar-default .navbar-nav > li > a {
-  text-transform: uppercase;
-}
-.navbar-default .navbar-nav > li > a .navbar-right {
+.navbar-right {
   padding-right: 20px;
 }
-.navbar-default .navbar-nav > li > a .navbar-brand {
+.navbar-brand {
   padding: 17px 20px;
   font-size: 19px;
   line-height: 30px;
   margin-top: -10px;
 }
-.navbar-default .navbar-nav > li > a .icon-menu {
+.icon-menu {
   color: #ffffff;
   font-size: 30px;
 }
-.navbar-default .navbar-nav > li > a .navbar-title {
+.navbar-title {
   color: #ffffff;
 }
-.navbar-default .navbar-nav > li > a .navbar {
+.navbar {
   min-height: 70px;
   height: 70px;
 }
 @media (max-width: 991px) {
-  .navbar-default .navbar-nav > li > a .navbar-header {
+  .navbar-header {
     float: left;
   }
-  .navbar-default .navbar-nav > li > a .navbar-right {
+  .navbar-right {
     float: right;
   }
-  .navbar-default .navbar-nav > li > a .navbar-right .navbar-title {
+  .navbar-title {
     display: none;
   }
 }
@@ -6301,11 +6296,11 @@ ul {
   left: 0;
   bottom: 0;
 }
-.carousel-caption .carousel-caption-text {
+.carousel-caption-text {
   font-weight: 400;
   margin-bottom: 0;
 }
-.carousel-caption .logo {
+.logo {
   margin-top: -6px;
 }
 @media (max-width: 767px) {
@@ -6366,11 +6361,6 @@ ul {
   max-width: 100%;
   margin: 100px auto 0;
 }
-@media (max-width: 767px) {
-  .modal-dialog {
-    margin: 0 auto;
-  }
-}
 .modal-content {
   background: #000;
   box-shadow: none;
@@ -6422,8 +6412,13 @@ ul {
   display: none;
   padding-top: 10px;
 }
-.modal-close-link .addthis {
+.addthis {
   padding: 7px 0;
+}
+@media (max-width: 767px) {
+  .modal-dialog {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 768px) {
   .modal-close-link {
@@ -6544,14 +6539,14 @@ ul {
   .logo-type {
     margin-bottom: 85px;
   }
-  .muted-h3 {
+  .typography-h3 {
     margin-top: 95px;
   }
   .type-example-h3 {
     margin-top: 35px;
   }
   .muted-p {
-    margin-top: 95px;
+    margin-top: 60px;
   }
 }
 @media (min-width: 991px) {
@@ -6562,6 +6557,12 @@ ul {
 @media (max-width: 991px) {
   .type-example.lead {
     margin-top: 35px;
+  }
+  .logo-type {
+    margin-bottom: 35px;
+  }
+  .muted-p {
+    margin-top: 95px;
   }
 }
 .illustration {
