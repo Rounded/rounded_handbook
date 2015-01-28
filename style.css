@@ -6243,6 +6243,9 @@ ul {
   .navbar-title {
     display: none;
   }
+  .nav.navbar-nav.navbar-right {
+    margin: -10px -29px 0px 0px;
+  }
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .navbar-default .navbar-nav > li > a {
@@ -6521,6 +6524,16 @@ ul {
   height: 250px;
   overflow: hidden;
   margin: 0 -20px;
+}
+@media (max-width: 991px) {
+  .timeline-panel {
+    float: left;
+    width: 90%;
+    margin: 17px 34px;
+  }
+  .timeline-pointer {
+    visibility: hidden;
+  }
 }
 .nono {
   margin-top: -25px;
